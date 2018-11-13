@@ -1,0 +1,20 @@
+{
+  "name": "omniscience",
+  "version": "1.0.0",
+  "description": "This repository checks every coding&amp;&amp;community site to see if it's up",
+  "main": "src/index.spec.js",
+  "repository": "https://github.com/codingandcommunity/omniscience",
+  "author": "Jake Billings <jake@jakebillings.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "start": "mocha --require babel-core/register --exit ./src/**/*.health.js"
+  }
+}
